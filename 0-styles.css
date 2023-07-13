@@ -1,0 +1,122 @@
+
+    /** HEADER **/
+
+ body {
+   background-color: seashell;
+   margin: 0px;
+ }
+/** h1 {
+   font-size: 2.5rem;
+ }
+ p {
+   font-size: 1rem;
+ }**/
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 50px;
+  overflow: hidden;
+  float: right;
+}
+
+.navbar-menu a {
+  display: flex;
+  padding: none;
+  margin: 1em;
+  font-size: 15px;
+}
+
+
+.container {
+    background-image: url('./images/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    max-width: 100%;
+}
+
+ .navbar-menu a:hover {
+    background-color: red;
+    color: black;
+  }
+
+   .navbar-menu a.active {
+      background-color: #04aa6d;
+      color: white;
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      text-align: center;
+    }
+    .navbar-menu {
+      flex-direction: column;
+    }
+    .navbar-menu a {
+      flex-direction: column;
+      margin: 0.8em 0;
+    }
+  }
+  /** Navbar *
+  .navbar-menu {
+    text-align: right;
+    overflow: hidden;
+    margin-right: 50px;
+    padding-top: 10px;
+    font-size: 1vw;
+    float: right;
+    width: 60%;
+  }
+  .navbar-menu a {
+    color: white;
+    padding: 0px;
+    float: right;
+    margin: 5px;
+    font-size: 1vw;
+  } 
+
+ 
+
+ 
+  /** Header**/
+
+.headphones-description {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding-top: 20px;
+    font-size: large;
+}
+.Introduction {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    line-height: 2px;
+    margin: 50px;
+    font-size: 1.5vw;
+}
+
+.section-hero {
+    text-align: center;
+    font-size: 50;
+}
+/** Button **/
+button {
+  border-radius: 20px;
+  border: none;
+  background-color: #FF6565;
+  color: white;
+  height: 40px;
+  width: 200px;
+  font-size: smaller;
+}
+
+.header-logo {
+  padding-top: 20px;
+  padding-left: 150px;
+  margin: 0px;
+  align-items: center;
+}
+
