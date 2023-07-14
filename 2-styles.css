@@ -119,3 +119,57 @@ button {
   margin: 0px;
   align-items: center;
 }
+
+.what-we-do {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: baseline;
+}
+
+.container-1 {
+  background-image: url('./images/background\ _1.png');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  max-width: 100%;
+}
+
+.section-description {
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.section-description h1 {
+  font-size: 40px;
+}
+
+.section-description p {
+  font-size: 20px;
+  margin-top: 90px;
+}
+
+.dot {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+@media (max-width: 480px) {
+  .dot {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 100%;
+    height: auto;
+    margin: 50px;
+  }
+}
